@@ -1,1 +1,3 @@
-# bignumber-rs
+# Gejang
+
+Rust BigNumber Library
