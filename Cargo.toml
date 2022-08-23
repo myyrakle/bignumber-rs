@@ -1,7 +1,17 @@
 [package]
 name = "gejang"
 version = "0.0.0"
-edition = "2021"
+authors = ["myyrakle <sssang97@naver.com>"] #작성자
+description = "Rust bignumber Library"
+keywords = ["number"] 
+edition = "2021" 
+license = "MIT" #라이센스
+include = ["src/lib.rs", "Cargo.toml"] 
+exclude = [] #업로드 제외
+readme = "README.md" #crate 페이지의 소개문 파일
+repository = "https://github.com/myyrakle/gejang" #레포지토리
+documentation = "https://github.com/myyrakle/gejang/blob/master/README.md" #문서 사이트
+homepage = "https://github.com/myyrakle/gejang/blob/master/README.md" #홈페이지 사이트
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
